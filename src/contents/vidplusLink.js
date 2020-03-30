@@ -8,7 +8,7 @@ const VidPlusLink = () => {
     <div className="refer-box">
       <a
         className="project-link"
-        href="https://github.com/codestates/vidplus-client"
+        href="https://github.com/jch9537/public-vidplus-client"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -17,7 +17,7 @@ const VidPlusLink = () => {
       </a>
       <a
         className="project-link"
-        href="https://github.com/codestates/vidplus-server"
+        href="https://github.com/jch9537/public-vidplus-server"
         target="_blank"
         rel="noopener noreferrer"
       >

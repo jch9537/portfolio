@@ -7,7 +7,7 @@ const SurfersLink = () => {
     <div className="refer-box">
       <a
         className="project-link"
-        href="https://github.com/codestates/chiMe-client"
+        href="https://github.com/jch9537/public-surfers-client"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -16,7 +16,7 @@ const SurfersLink = () => {
       </a>
       <a
         className="project-link"
-        href="https://github.com/codestates/chiMe-server"
+        href="https://github.com/jch9537/public-surfers-server"
         target="_blank"
         rel="noopener noreferrer"
       >
