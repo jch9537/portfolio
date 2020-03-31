@@ -12,7 +12,7 @@ const Contact = () => {
       </div>
       <a
         className="project-link"
-        href="https://app.enhancv.com/share/b8aa740d"
+        href="https://drive.google.com/file/d/1luc_KnljZQGxPHfDpIPlwICenICjDJZ6/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
       >
