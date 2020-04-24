@@ -1,11 +1,11 @@
-import React from "react";
+import React, { Fragment } from "react";
 
 import Menu from "./menu";
 import Contact from "./contact";
 
 const Nav = () => {
   return (
-    <div className="nav-wrapper">
+    <div className="nav-container">
       <div className="menu">
         <div className="menu-title">
           <a className="title-link" href="/">
@@ -13,7 +13,9 @@ const Nav = () => {
           </a>
           <Menu />
         </div>
-        <Contact />
+        <div className="pc-contact">
+          <Contact />
+        </div>
       </div>
     </div>
   );

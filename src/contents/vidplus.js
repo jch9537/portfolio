@@ -30,7 +30,8 @@ const VidPlus = () => {
             <br />
             User의 data 가공, 처리를 위한 logic 구현
             <br />
-            NodeMailer를 사용하여 임시비번 발송 <br />
+            NodeMailer를 사용하여 임시비번 발송
+            <br />
             session과 crypto를 이용한 사용자 보안
           </div>
         </div>
