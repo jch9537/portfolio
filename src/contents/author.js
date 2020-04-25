@@ -1,8 +1,8 @@
 import React from "react";
 
-const Footer = () => {
+const Author = () => {
   return (
-    <div className="footer">
+    <div className="author">
       <div>
         designed & built by <b>JungChihoon</b> @2020
       </div>
@@ -13,4 +13,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Author;

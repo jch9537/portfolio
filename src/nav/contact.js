@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 
 import { IoLogoGithub, IoMdMail } from "react-icons/io";
 import { FaBlogger, FaAddressCard } from "react-icons/fa";

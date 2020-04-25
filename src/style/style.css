@@ -31,15 +31,15 @@ footer {
   width: 300px;
   height: 100vh;
   background: black;
-  font-size: 2rem;
   padding: 30px 30px 45px 30px;
+  font-size: 2rem;
 }
 .menu {
   display: flex;
   flex-direction: column;
   height: 100%;
-  justify-content: space-between;
   padding-left: 15px;
+  justify-content: space-between;
 }
 .menu-title {
   flex-wrap: wrap;
@@ -47,38 +47,196 @@ footer {
 }
 .title-link {
   display: block;
+  margin-bottom: 20px;
   font-size: 2.2rem;
   font-weight: 500;
   color: white;
   text-decoration: none;
-  margin-bottom: 20px;
 }
 .menu-link {
   display: block;
-  color: white;
-  text-decoration: none;
-  font-size: 1.5rem;
   margin: 10px 15px 10px 5px;
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
 }
 .contact {
   padding: 10px 10px 5px 10px;
 }
 .contact-link {
   display: flex;
-  /* background-color: black;
-  border-radius: 10px; */
+  padding: 2px 5px;
+  margin: 5px 5px 5px 15px;
   font-size: 1.2rem;
   color: white;
   align-items: center;
   text-decoration: none;
-  padding: 2px 5px;
-  margin: 5px 5px 5px 15px;
 }
-.icon-name {
+.icon-name,
+.refer-name {
+  margin: 0em 0.5em;
   font-size: 1.1rem;
   font-weight: bold;
   font-weight: 500;
-  margin: 0em 0.5em;
+}
+/* contents */
+/* about */
+.contents-container {
+  flex: 1;
+  background: whitesmoke;
+  padding: 1% 10%;
+  font-size: 1.3rem;
+}
+.main-contents {
+  margin: 60px 0px;
+}
+.main-title {
+  display: inline-block;
+  background-color: black;
+  border-radius: 5px;
+  padding: 0px 10px 2px 10px;
+  margin: 10px 0px 20px 0px;
+  color: white;
+}
+.about-wrapper {
+  margin-top: 50px;
+}
+.contents-box {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.about-title {
+  display: inline-block;
+  width: 150px;
+  margin-top: 0px;
+  color: rgb(77, 77, 77);
+}
+.about-box {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0px;
+  justify-content: center;
+}
+.about-description {
+  margin: 0em 3em;
+}
+.myname {
+  margin: 0px;
+}
+.myimage {
+  width: auto;
+  height: 220px;
+  border: 10px double lightgrey;
+  border-radius: 48%;
+  margin: 1em 0em;
+}
+.about-description {
+  display: inline-block;
+  text-align: center;
+}
+.description-me {
+  width: 470px;
+}
+.refer-box {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.stack-box {
+  width: 100%;
+}
+.stack-img-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.stack-img {
+  width: auto;
+  height: 65px;
+  border-radius: 5px;
+  margin: 2% 3%;
+}
+/* project */
+.project-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project-item {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 2px lightgray;
+  padding: 5px 20px 20px 20px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.project-header {
+  display: flex;
+  margin-bottom: 5px;
+  justify-content: center;
+  align-items: baseline;
+}
+.project-title {
+  display: inline-block;
+  margin: 10px;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.project-link {
+  display: flex;
+  background-color: black;
+  border-radius: 10px;
+  padding: 2px 7px 2px 5px;
+  margin: 5px;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+.project-body {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 0px 20px 0px;
+  justify-content: center;
+  align-items: center;
+}
+.project-img {
+  width: 590px;
+  height: auto;
+  box-shadow: 2px 2px 2px 2px lightgray;
+}
+.description {
+  display: inline-block;
+  /* width: 445px; */
+  margin: 3% 3%;
+  font-size: 1.2rem;
+  text-align: start;
+}
+/* .discription-detail {
+  display: inline-block;
+} */
+.use-stack {
+  display: inline-block;
+  background-color: grey;
+  border-radius: 10px;
+  padding: 0px 8px 2px 8px;
+  margin: 5px;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.myrole {
+  margin: 15px 0px 5px 0px;
+}
+/* footer */
+.author {
+  height: 100px;
+  font-size: 1.2rem;
+  text-align: center;
 }
 
 @media (max-width: 1024px) {
@@ -89,17 +247,16 @@ footer {
   header {
     position: fixed;
     top: 0;
-    /* left: 0; */
     width: 100vw;
     height: 80px;
   }
   footer {
-    display: flex;
     position: fixed;
     bottom: 0;
-    background: black;
-    width: 100vw;
+    display: flex;
+    width: 100%;
     height: 70px;
+    background: black;
     justify-content: center;
   }
   /* nav */
@@ -107,25 +264,25 @@ footer {
     width: 100%;
     height: 80px;
     background: black;
-    color: white;
     padding: 0px;
+    color: white;
   }
   .menu {
     height: 100%;
-    justify-content: center;
     padding: 0px;
+    justify-content: center;
   }
   .menu-title {
     display: flex;
+    margin: 0px 30px;
     justify-content: space-between;
     align-items: baseline;
-    margin: 0px 30px;
   }
   .title-link,
   .menu-link {
     display: inline-flex;
-    font-weight: 500;
     margin: 10px;
+    font-weight: 500;
   }
   /* contact */
   .pc-contact {
@@ -133,9 +290,9 @@ footer {
   }
   .contact {
     display: flex;
+    padding: 0px;
     justify-content: center;
     align-items: center;
-    padding: 0px;
   }
   .contact .menu-link {
     padding-bottom: 3px;
@@ -147,6 +304,43 @@ footer {
   }
   .icon-name {
     margin: 0em 0.3em;
+  }
+  /* about */
+  .about-wrapper {
+    margin: 0px;
+  }
+  .contents-box {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-top: 0px;
+    align-items: center;
+  }
+  .contents-box:last-child {
+    margin-top: 30px;
+  }
+  .about-title {
+    text-align: center;
+    margin: 10px;
+  }
+  .stack-img {
+    width: auto;
+    height: 60px;
+    border-radius: 5px;
+    margin: 2% 3%;
+  }
+  /* project */
+  .project-item {
+    border: solid rgba(60, 60, 60, 0.2);
+    border-width: 0px 0px 5px 0px;
+    border-radius: 0px;
+    box-shadow: none;
+    padding: 5px 20px 40px 20px;
+    margin: 10px 0px;
+  }
+  .description {
+    margin-top: 4%;
+    font-size: 1.3rem;
   }
 }
 @media (max-width: 767px) {
@@ -181,10 +375,13 @@ footer {
     display: none;
   }
   .contact-link {
-    font-size: 2rem;
     margin: 0px 8px;
+    font-size: 2rem;
   }
   .icon-name {
     display: none;
+  }
+  .project-img {
+    width: 100%;
   }
 }

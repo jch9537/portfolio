@@ -12,7 +12,7 @@ const SurfersLink = () => {
         rel="noopener noreferrer"
       >
         <IoLogoGithub />
-        <span className="icon-name">Client</span>
+        <span className="refer-name">Client</span>
       </a>
       <a
         className="project-link"
@@ -21,7 +21,7 @@ const SurfersLink = () => {
         rel="noopener noreferrer"
       >
         <IoLogoGithub />
-        <span className="icon-name">Server</span>
+        <span className="refer-name">Server</span>
       </a>
       <a
         className="project-link"
@@ -30,7 +30,7 @@ const SurfersLink = () => {
         rel="noopener noreferrer"
       >
         <IoLogoYoutube />
-        <span className="icon-name">Demo</span>
+        <span className="refer-name">Demo</span>
       </a>
     </div>
   );

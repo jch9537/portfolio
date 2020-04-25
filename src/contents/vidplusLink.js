@@ -13,7 +13,7 @@ const VidPlusLink = () => {
         rel="noopener noreferrer"
       >
         <IoLogoGithub />
-        <span className="icon-name">Client</span>
+        <span className="refer-name">Client</span>
       </a>
       <a
         className="project-link"
@@ -22,7 +22,7 @@ const VidPlusLink = () => {
         rel="noopener noreferrer"
       >
         <IoLogoGithub />
-        <span className="icon-name">Server</span>
+        <span className="refer-name">Server</span>
       </a>
       <a
         className="project-link"
@@ -31,7 +31,7 @@ const VidPlusLink = () => {
         rel="noopener noreferrer"
       >
         <FaFilePowerpoint />
-        <span className="icon-name">Presentation</span>
+        <span className="refer-name">Presentation</span>
       </a>
     </div>
   );

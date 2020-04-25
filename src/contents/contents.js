@@ -2,18 +2,18 @@ import React from "react";
 
 import About from "./about";
 import Project from "./project";
-import Footer from "./footer";
-import Contact from "../nav/contact";
+import Author from "./author";
+// import Contact from "../nav/contact";
 
 const Contents = () => {
   return (
-    <div>
+    <div className="contents-container">
       <About />
       <Project />
-      <Footer />
-      <footer className="mobile-contact">
+      <Author />
+      {/* <footer className="mobile-contact">
         <Contact />
-      </footer>
+      </footer> */}
     </div>
   );
 };

@@ -6,7 +6,7 @@ import MyStack from "./mystack";
 
 const About = () => {
   return (
-    <div className="main-contents">
+    <div id="about" className="main-contents">
       <h2 className="main-title">About</h2>
       <div className="about-wrapper">
         <div className="contents-box">
