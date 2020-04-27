@@ -9,7 +9,7 @@ const VidPlus = () => {
   return (
     <div className="project-item">
       <div className="project-header">
-        <p className="project-title">Vid+</p>
+        <h3 className="project-title">Vid+</h3>
       </div>
       <div className="project-body">
         <img className="project-img" src={VidPlusImg} alt="" />

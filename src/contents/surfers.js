@@ -9,13 +9,13 @@ const Surfers = () => {
   return (
     <div className="project-item">
       <div className="project-header">
-        <p className="project-title">Surfers</p>
+        <h3 className="project-title">Surfers</h3>
       </div>
       <div className="project-body">
         <img className="project-img" src={SurfersImg} alt="" />
         <div className="description">
           <div className="description-detail">
-            Surfing을 즐기는 사람을 위한 커뮤니티 앱 어플리케이션
+            Surfer들을 위한 커뮤니티 앱 어플리케이션
             <br />
             날씨를 확인하여 커뮤니티 Room 개설
             <br />

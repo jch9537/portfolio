@@ -8,7 +8,7 @@ const Nav = () => {
     <div className="nav-container">
       <div className="menu">
         <div className="menu-title">
-          <a className="title-link" href="/">
+          <a className="title-link" href="https://jch9537.github.io/portfolio">
             Portfolio
           </a>
           <Menu />

@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
 /* body */
 html,
 body,
@@ -5,6 +7,7 @@ body,
   background: whitesmoke;
   padding: 0;
   margin: 0;
+  font-family: "Noto Sans KR", sans-serif;
 }
 /* app */
 #container {
@@ -17,6 +20,7 @@ header {
 }
 main {
   flex: 1;
+  width: 100%;
   background: whitesmoke;
 }
 footer {
@@ -43,7 +47,7 @@ footer {
 }
 .menu-title {
   flex-wrap: wrap;
-  margin: 35px 10px;
+  margin: 1.5em 0.3em;
 }
 .title-link {
   display: block;
@@ -61,7 +65,7 @@ footer {
   text-decoration: none;
 }
 .contact {
-  padding: 10px 10px 5px 10px;
+  padding: 0.3em 0.3em 0.2em 0.3em;
 }
 .contact-link {
   display: flex;
@@ -94,8 +98,8 @@ footer {
   display: inline-block;
   background-color: black;
   border-radius: 5px;
-  padding: 0px 10px 2px 10px;
-  margin: 10px 0px 20px 0px;
+  padding: 0em 0.3em 0.1em 0.3em;
+  margin: 0.3em 0em 0.6em 0em;
   color: white;
 }
 .about-wrapper {
@@ -129,7 +133,7 @@ footer {
 .myimage {
   width: auto;
   height: 220px;
-  border: 10px double lightgrey;
+  border: 0.5em double lightgrey;
   border-radius: 48%;
   margin: 1em 0em;
 }
@@ -143,7 +147,7 @@ footer {
 .refer-box {
   display: flex;
   flex-direction: row;
-  margin-top: 10px;
+  margin-top: 0.6em;
 }
 .stack-box {
   width: 100%;
@@ -171,7 +175,7 @@ footer {
   width: 90%;
   border-radius: 15px;
   box-shadow: 2px 2px 2px 2px lightgray;
-  padding: 5px 20px 20px 20px;
+  padding: 0.25em 1em 1em 1em;
   margin: 20px 0px;
   text-align: center;
 }
@@ -183,7 +187,7 @@ footer {
 }
 .project-title {
   display: inline-block;
-  margin: 10px;
+  margin: 0.3em;
   font-size: 1.8rem;
   font-weight: bold;
 }
@@ -191,16 +195,17 @@ footer {
   display: flex;
   background-color: black;
   border-radius: 10px;
-  padding: 2px 7px 2px 5px;
-  margin: 5px;
+  padding: 0.1em 0.3em 0.1em 0.3em;
+  margin: 0.3em;
   align-items: center;
+  font-size: 1.2rem;
   color: white;
   text-decoration: none;
 }
 .project-body {
   display: flex;
   flex-wrap: wrap;
-  margin: 0px 0px 20px 0px;
+  margin-bottom: 0.7em;
   justify-content: center;
   align-items: center;
 }
@@ -211,61 +216,60 @@ footer {
 }
 .description {
   display: inline-block;
-  /* width: 445px; */
   margin: 3% 3%;
   font-size: 1.2rem;
   text-align: start;
 }
-/* .discription-detail {
-  display: inline-block;
-} */
 .use-stack {
   display: inline-block;
   background-color: grey;
   border-radius: 10px;
-  padding: 0px 8px 2px 8px;
-  margin: 5px;
+  padding: 0.1em 0.5em;
+  margin: 0.3em;
   color: white;
   font-size: 1.1rem;
   font-weight: bold;
 }
 .myrole {
-  margin: 15px 0px 5px 0px;
+  margin: 0.7em 0em 0.4em 0em;
 }
-/* footer */
+/* author */
 .author {
-  height: 100px;
+  height: 5em;
   font-size: 1.2rem;
   text-align: center;
 }
 
-@media (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   /* app */
   #container {
-    padding: 80px 0px 70px 0px;
+    width: 100vw;
+    padding: 0px;
   }
   header {
     position: fixed;
     top: 0;
     width: 100vw;
-    height: 80px;
+    height: 8vh;
+  }
+  .contents-container {
+    padding: 8vh 10% 6vh 10%;
   }
   footer {
     position: fixed;
     bottom: 0;
     display: flex;
     width: 100%;
-    height: 70px;
+    height: 6vh;
     background: black;
     justify-content: center;
+    align-items: center;
   }
   /* nav */
   .nav-container {
     width: 100%;
-    height: 80px;
-    background: black;
+    height: 8vh;
     padding: 0px;
-    color: white;
   }
   .menu {
     height: 100%;
@@ -274,9 +278,12 @@ footer {
   }
   .menu-title {
     display: flex;
-    margin: 0px 30px;
+    margin: 0em 1em;
     justify-content: space-between;
     align-items: baseline;
+  }
+  .menu-detail {
+    display: flex;
   }
   .title-link,
   .menu-link {
@@ -290,6 +297,7 @@ footer {
   }
   .contact {
     display: flex;
+    height: 6vh;
     padding: 0px;
     justify-content: center;
     align-items: center;
@@ -309,6 +317,10 @@ footer {
   .about-wrapper {
     margin: 0px;
   }
+  .main-title {
+    padding: 0.1em 0.3em;
+    margin: 0.3em 0em 0em 0em;
+  }
   .contents-box {
     display: flex;
     flex-direction: column;
@@ -317,11 +329,14 @@ footer {
     align-items: center;
   }
   .contents-box:last-child {
-    margin-top: 30px;
+    margin-top: 4%;
   }
   .about-title {
     text-align: center;
-    margin: 10px;
+    margin: 0.5em 0.5em 0.5em 0em;
+  }
+  .myimage {
+    margin: 0.5em 1em 1em 1em;
   }
   .stack-img {
     width: auto;
@@ -332,10 +347,10 @@ footer {
   /* project */
   .project-item {
     border: solid rgba(60, 60, 60, 0.2);
-    border-width: 0px 0px 5px 0px;
+    border-width: 0em 0em 0.2em 0em;
     border-radius: 0px;
     box-shadow: none;
-    padding: 5px 20px 40px 20px;
+    padding: 0.25em 1em 3em 1em;
     margin: 10px 0px;
   }
   .description {
@@ -343,45 +358,148 @@ footer {
     font-size: 1.3rem;
   }
 }
-@media (max-width: 767px) {
-  /* app */
-  #container {
-    padding: 70px 0px 70px 0px;
+@media only screen and (max-width: 1024px) and (max-height: 450px) {
+  .main-title {
+    font-size: 1.5rem;
   }
+  .title-link {
+    font-size: 6vh;
+  }
+  .menu-link {
+    font-size: 5vh;
+  }
+  .contact-link {
+    font-size: 4.5vh;
+  }
+  .icon-name {
+    font-size: 3.5vh;
+  }
+}
+@media only screen and (max-width: 766px) {
   header {
+    position: fixed;
+    top: 0;
     box-sizing: border-box;
     width: 100vw;
-    height: 70px;
+    height: 8vh;
+  }
+  .contents-container {
+    padding: 8vh 5%;
+    font-size: 0.8rem;
   }
   footer {
-    height: 70px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    background: black;
+    justify-content: center;
   }
   /* nav */
+  .nav-container {
+    height: 8vh;
+  }
+  .menu {
+    height: 100%;
+    padding: 0px;
+    justify-content: center;
+  }
   .menu-title {
-    margin: 0px 15px;
+    display: flex;
+    margin: 0em 0.5em;
+    justify-content: space-between;
+    align-items: baseline;
   }
   .title-link,
   .menu-link {
     margin: 5px;
   }
   .title-link {
-    font-size: 1.5rem;
+    font-size: 3vh;
   }
   .menu-link {
-    font-size: 1rem;
+    font-size: 2.5vh;
+  }
+  /* about */
+  .main-contents {
+    margin: 20px 0px;
   }
   /* contact */
+  .pc-contact {
+    display: none;
+  }
+  .contact {
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+  }
   .contact .menu-link {
     display: none;
   }
   .contact-link {
+    display: inline-flex;
     margin: 0px 8px;
-    font-size: 2rem;
+    font-size: 5vh;
   }
   .icon-name {
     display: none;
   }
-  .project-img {
+  /* about */
+  .about-wrapper {
+    margin: 0px;
+  }
+  .about-box {
+    align-items: center;
+  }
+  .myimage {
+    height: 150px;
+    margin-top: 0em;
+    margin-bottom: 1em;
+  }
+  .about-description {
+    margin: 0em 1em;
+  }
+  .myname {
+    font-size: 1.3rem;
+  }
+  .description-me {
     width: 100%;
+    font-size: 0.7em;
+    font-size: 0.9rem;
+  }
+  .stack-img {
+    width: auto;
+    height: 30px;
+    border-radius: 5px;
+    margin: 2% 3%;
+  }
+  /* project */
+  .project-title {
+    font-size: 1.2rem;
+  }
+  .project-img {
+    width: 95%;
+  }
+  .description {
+    margin-top: 4%;
+    font-size: 0.8rem;
+  }
+  .project-link {
+    font-size: 0.8rem;
+  }
+  .refer-name {
+    font-size: 0.7rem;
+  }
+  .use-stack {
+    /* font-size: 0.7rem; */
+    font-size: 0.9rem;
+  }
+  .author {
+    font-size: 1rem;
   }
 }
+/* 
+@media all and (orientation:portrait) {} 
+@media all and (orientation:landscape) {}  */
