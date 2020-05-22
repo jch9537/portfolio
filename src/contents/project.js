@@ -2,6 +2,7 @@ import React from "react";
 
 import VidPlus from "./vidplus";
 import Surfers from "./surfers";
+import Crawler from "./crawler";
 
 const Project = () => {
   return (
@@ -10,6 +11,7 @@ const Project = () => {
       <div className="project-wrapper">
         <VidPlus />
         <Surfers />
+        <Crawler />
       </div>
     </div>
   );

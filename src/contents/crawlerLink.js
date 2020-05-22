@@ -2,12 +2,12 @@ import React from "react";
 
 import { IoLogoGithub, IoLogoYoutube } from "react-icons/io";
 
-const SurfersLink = () => {
+const CrawlerLink = () => {
   return (
     <div className="refer-box">
       <a
         className="project-link"
-        href="https://github.com/jch9537/public-surfers-client"
+        href="https://github.com/jch9537/g9_client"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -16,7 +16,7 @@ const SurfersLink = () => {
       </a>
       <a
         className="project-link"
-        href="https://github.com/jch9537/public-surfers-server"
+        href="https://github.com/jch9537/g9_server"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -25,7 +25,7 @@ const SurfersLink = () => {
       </a>
       <a
         className="project-link"
-        href="https://youtu.be/EimhUt2tAcI"
+        href="https://youtu.be/LvoKu6_HVbQ"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -36,4 +36,4 @@ const SurfersLink = () => {
   );
 };
 
-export default SurfersLink;
+export default CrawlerLink;
